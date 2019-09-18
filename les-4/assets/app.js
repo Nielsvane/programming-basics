@@ -4,7 +4,7 @@ checkt of iemand een onvoldoende/voldoende/goed/uitmuntend voor het vak programm
 (onvoldoende:  kleiner dan 6; voldoende: tussen 6 en 7; goed: tussen 7 en 9; uitmuntend: groter dan 9).
 */
 
-const myGrade = 2;
+const myGrade = 7;
 
 if (myGrade < 6) {
     console.log('onvoldoende, helaas');
@@ -72,3 +72,13 @@ Als de 2 boolean variabelen ‘waar’ zijn en de job is ‘teacher’ dan moet 
 Voor alle andere mogelijkheden in de if-else structuur moet je ook een nette oplossing bedenken.
 */
 
+let purchasedBook = true;
+let job = 'teacher';
+let inTrain = false;
+
+if (purchasedBook == true && job == 'teacher' && !inTrain) {
+    console.log('Finally i can enjoy my book!')
+}
+else {
+    console.log('Go get a job')
+}
